@@ -1,0 +1,108 @@
+.image {
+  display: block;
+  overflow: visible;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.div-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.image-2 {
+  position: absolute;
+  z-index: 1;
+  margin-top: 10%;
+}
+
+.text-block {
+  position: absolute;
+  z-index: 2;
+  margin-top: 17%;
+  font-size: 4vw;
+  font-weight: 700;
+}
+
+.text-block-2 {
+  position: absolute;
+  z-index: 2;
+  margin-top: 21.5%;
+  font-size: 4vw;
+  font-weight: 700;
+}
+
+.text-block-3 {
+  position: absolute;
+  z-index: 2;
+  margin-top: 27%;
+  font-size: 2.5vw;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 1920px) {
+  .image {
+    width: 85%;
+  }
+
+  .image-2 {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .text-block {
+    margin-top: 19%;
+  }
+
+  .text-block-2 {
+    margin-top: 23.5%;
+  }
+
+  .text-block-3 {
+    margin-top: 29%;
+  }
+}
+
+@font-face {
+  font-family: 'Proxima nova';
+  src: url('../fonts/Proxima-Nova-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proxima nova alt';
+  src: url('../fonts/Proxima-Nova-Alt-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proxima nova';
+  src: url('../fonts/Proxima-Nova-Bold.otf') format('opentype'), url('../fonts/Proxima-Nova-Extrabold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proxima nova';
+  src: url('../fonts/Proxima-Nova-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Proxima nova';
+  src: url('../fonts/Proxima-Nova-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
